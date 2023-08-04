@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: darkslategrey;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f0f0f0;
+        }
+        header, main, footer {
+            width: 80%;
+            padding: 20px;
+            margin: 10px 0;
+            background-color: white;
+        }
+        header h1 {
+            text-align: center;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 10px;
+        }
+        .gallery img {
+            max-width: 30%;
+            height: auto;
+        }
+        footer {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Photogallery</h1>
+        </header>
+        <main>
+            <div class="gallery">
+                <img src="https://cdn.pixabay.com/photo/2023/06/22/15/17/cat-8081701_1280.jpg" alt="cat">
+                <img src="https://cdn.pixabay.com/photo/2023/06/22/15/17/cat-8081701_1280.jpg" alt="cat">
+                <img src="https://cdn.pixabay.com/photo/2023/06/22/15/17/cat-8081701_1280.jpg" alt="cat">
+                <img src="https://cdn.pixabay.com/photo/2023/06/22/15/17/cat-8081701_1280.jpg" alt="cat">
+                <img src="https://cdn.pixabay.com/photo/2023/06/22/15/17/cat-8081701_1280.jpg" alt="cat">
+                <img src="https://cdn.pixabay.com/photo/2023/06/22/15/17/cat-8081701_1280.jpg" alt="cat">
+            </div>
+        </main>
+        <footer>
+            <p>My gallery - 2023</p>
+        </footer>
+    </div>
+</body>
+</html>
